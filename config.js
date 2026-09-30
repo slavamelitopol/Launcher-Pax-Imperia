@@ -10,7 +10,7 @@ module.exports = {
   // Version de Minecraft et de NeoForge
   minecraftVersion: '1.21.1',
   // Mets la même version de NeoForge que sur ton serveur (ex. '21.1.77'),
-  // ou 'latest' pour prendre la dernière version pour 1.21.1.
+  // ou 'latest' pour prendre la dernière version pour 1.21.1.248
   neoforgeVersion: 'latest',
 
   // Lien "raw" vers ton fichier mods.json sur GitHub.
