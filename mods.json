@@ -1,9 +1,119 @@
 {
   "mods": [
     {
-      "name": "exemple-mod-1.21.1.jar",
-      "url": "https://github.com/TON-PSEUDO/TON-DEPOT/releases/download/mods/exemple-mod-1.21.1.jar",
-      "sha1": ""
+      "name": "copycats-3.0.9+mc.1.21.1-neoforge.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/copycats-3.0.9%2Bmc.1.21.1-neoforge.jar",
+      "sha1": "74de17876c43f5f780bac478b9f9eb11e687b8d7"
+    },
+    {
+      "name": "CraftTweaker-neoforge-1.21.1-21.0.38.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/CraftTweaker-neoforge-1.21.1-21.0.38.jar",
+      "sha1": "dba530a29e0dd26333c1a1a82ae33942483306df"
+    },
+    {
+      "name": "create-1.21.1-6.0.10.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/create-1.21.1-6.0.10.jar",
+      "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353"
+    },
+    {
+      "name": "createatomic-1.3.1.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/createatomic-1.3.1.jar",
+      "sha1": "7b66ae1544523b7789a3d2b121081a8c24d45d97"
+    },
+    {
+      "name": "curios-neoforge-9.5.1+1.21.1.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/curios-neoforge-9.5.1%2B1.21.1.jar",
+      "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4"
+    },
+    {
+      "name": "fracturepoint-1.21.1-3.0.0-PT2.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/fracturepoint-1.21.1-3.0.0-PT2.jar",
+      "sha1": "c4bb6d96145bcd3b52aba2bf2d386e51234c642a"
+    },
+    {
+      "name": "framework-neoforge-1.21.1-0.13.11.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/framework-neoforge-1.21.1-0.13.11.jar",
+      "sha1": "e46eb138fbb13a12f37154fb4ec407d64b326475"
+    },
+    {
+      "name": "geckolib-neoforge-1.21.1-4.9.3.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/geckolib-neoforge-1.21.1-4.9.3.jar",
+      "sha1": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac"
+    },
+    {
+      "name": "Immersive-Vehicles-1.21.1-24.0.0.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/Immersive-Vehicles-1.21.1-24.0.0.jar",
+      "sha1": "7050a332f18d390610029de28c13fb6139786607"
+    },
+    {
+      "name": "kaleidoscopecookery-1.5.1-neoforge+mc1.21.1.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/kaleidoscopecookery-1.5.1-neoforge%2Bmc1.21.1.jar",
+      "sha1": "2d5aca874bd5920d5c716da4f1d500b3f4ab6d56"
+    },
+    {
+      "name": "kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/kaleidoscopetavern-1.2.0-neoforge%2Bmc1.21.1.jar",
+      "sha1": "bf026cb97921749adf6155181d2f9639d37a7261"
+    },
+    {
+      "name": "kaleidoscope_world_liquor-1.1.9-neoforge+1.21.1-fix.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/kaleidoscope_world_liquor-1.1.9-neoforge%2B1.21.1-fix.jar",
+      "sha1": "c4a3cbf62092eae2004d4e446c5e773f63fb52f2"
+    },
+    {
+      "name": "kotlinforforge-5.12.0-all.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/kotlinforforge-5.12.0-all.jar",
+      "sha1": "a2032c921e93a0ccb0db5d742167e3139c2de01b"
+    },
+    {
+      "name": "MTS-Official-Pack-1.21.1-V29.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/MTS-Official-Pack-1.21.1-V29.jar",
+      "sha1": "7e7cc4389379cdb7addc1bb29ff1700099cee5bb"
+    },
+    {
+      "name": "OAmP-1.21.1-V3.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/OAmP-1.21.1-V3.jar",
+      "sha1": "ad829b79201a4ccc3529f66a49b7225c3e0e686e"
+    },
+    {
+      "name": "railways-0.2.1+neoforge-mc1.21.1.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/railways-0.2.1%2Bneoforge-mc1.21.1.jar",
+      "sha1": "f2d71927ef504b597a6c992d02118c1e6ee6e369"
+    },
+    {
+      "name": "refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/refurbished_furniture-neoforge-1.21.1-1.0.22.jar",
+      "sha1": "6c209e6b755ff26218efd55aedf2dea49183d29b"
+    },
+    {
+      "name": "SBW-Drone-Warfare-1.21.1-NeoForge-1.0.6.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/SBW-Drone-Warfare-1.21.1-NeoForge-1.0.6.jar",
+      "sha1": "a672a637bb6b8067b9e05394740a178094a2a4b9"
+    },
+    {
+      "name": "srs-0.1.0-1.21.1.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/srs-0.1.0-1.21.1.jar",
+      "sha1": "5be0914f8d773403c5f3b255fba856502d95e65d"
+    },
+    {
+      "name": "superbwarfare-0.8.9.1-final-mc1.21.1-5b92ebe1.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/superbwarfare-0.8.9.1-final-mc1.21.1-5b92ebe1.jar",
+      "sha1": "543fe1e639969ef0717250c5122ad57bdbdc817b"
+    },
+    {
+      "name": "tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/tacz-neoforge-1.21.1-1.1.8-hotfix-r6.jar",
+      "sha1": "c70e8f638bede79ab8a85c891c464097b3100055"
+    },
+    {
+      "name": "tfmg-1.2.0.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/tfmg-1.2.0.jar",
+      "sha1": "b520f3687f60a69eb265ff5b9a16759b9e124103"
+    },
+    {
+      "name": "ultimaratio-0.4.0-1.21.1.jar",
+      "url": "https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/ultimaratio-0.4.0-1.21.1.jar",
+      "sha1": "d93964cb7973a8a7ca3d9a730513bc554e5956b6"
     }
   ]
 }
