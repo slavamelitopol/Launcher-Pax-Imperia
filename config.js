@@ -15,7 +15,7 @@ module.exports = {
 
   // Lien "raw" vers ton fichier mods.json sur GitHub.
   // Remplace TON-PSEUDO et TON-DEPOT par les tiens.
-  modsManifestUrl: 'https://raw.githubusercontent.com/slavamelitopol/Launcher-Pax-Imperia/main/mods.json',
+  modsManifestUrl: 'modsManifestUrl: 'https://github.com/slavamelitopol/Launcher-Pax-Imperia/blob/main/mods.json',
 
   // ID d'application Azure pour la connexion Microsoft.
   // Laisse vide pour utiliser l'ID par défaut de la bibliothèque.
