@@ -1,0 +1,117 @@
+:root {
+  --porphyre: #3A1530;
+  --porphyre-profond: #230C1D;
+  --bronze: #C09A55;
+  --bronze-clair: #E0C185;
+  --marbre: #EEE9E1;
+  --cendre: #A99AA4;
+  --erreur: #E8866F;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Alegreya Sans', 'Segoe UI', sans-serif;
+  color: var(--marbre);
+  background:
+    radial-gradient(ellipse at 20% 40%, rgba(192, 154, 85, 0.12), transparent 60%),
+    var(--porphyre-profond);
+  user-select: none;
+}
+
+button { font: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+button:focus-visible, input:focus-visible { outline: 2px solid var(--bronze-clair); outline-offset: 3px; }
+
+.titlebar {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 18px;
+  -webkit-app-region: drag;
+  border-bottom: 1px solid rgba(192, 154, 85, 0.25);
+}
+.titlebar-name { font-size: 13px; color: var(--cendre); }
+.titlebar-actions { -webkit-app-region: no-drag; display: flex; }
+.titlebar-actions button { width: 46px; height: 36px; color: var(--cendre); }
+.titlebar-actions button:hover { background: rgba(255, 255, 255, 0.06); color: var(--marbre); }
+#btn-close:hover { background: #8E2F2F; }
+
+.layout {
+  height: calc(100vh - 36px);
+  display: grid;
+  grid-template-columns: 1fr 340px;
+}
+
+/* Le nom du serveur gravé comme une inscription impériale */
+.inscription {
+  padding: 64px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inscription h1 {
+  font-family: 'Cinzel', 'Trajan Pro', Georgia, serif;
+  font-weight: 700;
+  line-height: 0.95;
+  color: var(--bronze);
+  text-shadow: 0 1px 0 var(--bronze-clair), 0 3px 12px rgba(0, 0, 0, 0.5);
+}
+.inscription .line { display: block; font-size: 104px; letter-spacing: 0.04em; }
+.inscription .line:first-child { font-size: 64px; letter-spacing: 0.3em; margin-bottom: 4px; }
+.subtitle {
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 3px double rgba(192, 154, 85, 0.5);
+  max-width: 440px;
+  font-size: 18px;
+}
+.address { margin-top: 6px; font-size: 15px; color: var(--cendre); }
+
+.panel {
+  background: var(--porphyre);
+  border-left: 1px solid rgba(192, 154, 85, 0.3);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.account { display: flex; align-items: center; gap: 14px; min-height: 52px; }
+.account img { width: 48px; height: 48px; image-rendering: pixelated; border: 2px solid var(--bronze); }
+.account-name { font-size: 18px; font-weight: 700; }
+
+.ram span { display: block; font-size: 15px; margin-bottom: 8px; color: var(--cendre); }
+.ram strong { color: var(--marbre); }
+.ram input { width: 100%; accent-color: var(--bronze); }
+
+.primary {
+  margin-top: auto;
+  padding: 16px;
+  font-family: 'Cinzel', Georgia, serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--porphyre-profond);
+  background: linear-gradient(var(--bronze-clair), var(--bronze));
+  border: 1px solid #8B6A30;
+  border-radius: 3px;
+  transition: filter 0.15s;
+}
+.primary:hover:not(:disabled) { filter: brightness(1.08); }
+.primary:disabled { opacity: 0.5; cursor: wait; }
+#btn-login { font-family: 'Alegreya Sans', sans-serif; font-size: 16px; letter-spacing: 0; }
+
+.progress .bar { height: 6px; background: rgba(0, 0, 0, 0.35); border-radius: 3px; overflow: hidden; }
+.progress .fill { height: 100%; width: 0; background: var(--bronze); transition: width 0.2s; }
+.progress p { margin-top: 8px; font-size: 14px; color: var(--cendre); min-height: 20px; }
+.progress p.error { color: var(--erreur); }
+
+.link { font-size: 14px; color: var(--cendre); text-decoration: underline; text-underline-offset: 3px; text-align: left; }
+.link:hover { color: var(--marbre); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

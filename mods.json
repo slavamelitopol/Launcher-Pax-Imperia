@@ -1,0 +1,9 @@
+{
+  "mods": [
+    {
+      "name": "exemple-mod-1.21.1.jar",
+      "url": "https://github.com/TON-PSEUDO/TON-DEPOT/releases/download/mods/exemple-mod-1.21.1.jar",
+      "sha1": ""
+    }
+  ]
+}

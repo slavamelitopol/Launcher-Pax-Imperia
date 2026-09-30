@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pax Imperia RP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="titlebar">
+    <span class="titlebar-name">Pax Imperia RP</span>
+    <div class="titlebar-actions">
+      <button id="btn-min" aria-label="Réduire">&#8211;</button>
+      <button id="btn-close" aria-label="Fermer">&#10005;</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="inscription">
+      <h1>
+        <span class="line">Pax</span>
+        <span class="line">Imperia</span>
+      </h1>
+      <p class="subtitle">Serveur roleplay sur Minecraft <span id="mc-version">1.21.1</span> NeoForge</p>
+      <p class="address" id="server-address"></p>
+    </section>
+
+    <aside class="panel">
+      <div class="account">
+        <img id="avatar" alt="" hidden>
+        <div>
+          <p class="account-name" id="account-name">Aucun compte connecté</p>
+          <button class="link" id="btn-logout" hidden>Se déconnecter</button>
+        </div>
+      </div>
+
+      <label class="ram">
+        <span>Mémoire allouée : <strong id="ram-value">6</strong> Go</span>
+        <input type="range" id="ram" min="2" max="16" step="1">
+      </label>
+
+      <button class="primary" id="btn-login">Se connecter avec Microsoft</button>
+      <button class="primary" id="btn-play" hidden>Jouer</button>
+
+      <div class="progress" aria-live="polite">
+        <div class="bar"><div class="fill" id="progress-fill"></div></div>
+        <p id="status">Prêt.</p>
+      </div>
+
+      <button class="link" id="btn-folder">Ouvrir le dossier du jeu</button>
+    </aside>
+  </main>
+
+  <script src="renderer.js"></script>
+</body>
+</html>

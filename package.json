@@ -1,0 +1,30 @@
+{
+  "name": "pax-imperia-launcher",
+  "version": "1.0.0",
+  "description": "Launcher officiel du serveur Pax Imperia RP",
+  "main": "main.js",
+  "author": "Pax Imperia RP",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --publish never"
+  },
+  "dependencies": {
+    "minecraft-java-core": "latest"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "fr.paximperia.launcher",
+    "productName": "Pax Imperia RP",
+    "files": ["main.js", "preload.js", "config.js", "src/**/*", "package.json"],
+    "win": { "target": "nsis" },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "Pax Imperia RP"
+    }
+  }
+}
