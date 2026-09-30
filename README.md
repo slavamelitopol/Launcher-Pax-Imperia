@@ -10,14 +10,14 @@ Crée un dépôt (par exemple `pax-imperia-launcher`) et envoie tous ces fichier
 
 ## 2. Configurer
 
-Ouvre `config.js` et remplace `TON-PSEUDO/TON-DEPOT` par ton pseudo GitHub et le nom du dépôt.
+`config.js` pointe déjà vers le dépôt slavamelitopol/Launcher-Pax-Imperia. Le dépôt doit être **public**, sinon les joueurs ne pourront pas télécharger les mods.
 Mets aussi la version exacte de NeoForge de ton serveur dans `neoforgeVersion`.
 
 ## 3. Héberger les mods
 
 1. Sur GitHub, va dans **Releases > Create a new release**, tag `mods`, et glisse tous les `.jar` de ton modpack (sans espaces dans les noms).
 2. Sur ton PC, installe Node.js puis lance :
-   `node tools/generer-mods-json.js C:\chemin\vers\tes\mods https://github.com/TON-PSEUDO/TON-DEPOT/releases/download/mods/`
+   `node tools/generer-mods-json.js C:\chemin\vers\tes\mods https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/`
 3. Envoie le `mods.json` généré sur GitHub (il remplace l'exemple).
 
 Pour ajouter ou retirer un mod plus tard : modifie la release, régénère `mods.json`, renvoie-le. Les joueurs sont mis à jour au prochain lancement, sans réinstaller le launcher.

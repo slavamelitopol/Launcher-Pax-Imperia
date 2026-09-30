@@ -2,7 +2,7 @@
 // Usage :
 //   node tools/generer-mods-json.js <dossier-des-mods> <url-de-base>
 // Exemple :
-//   node tools/generer-mods-json.js ./mods https://github.com/TON-PSEUDO/TON-DEPOT/releases/download/mods/
+//   node tools/generer-mods-json.js ./mods https://github.com/slavamelitopol/Launcher-Pax-Imperia/releases/download/mods/
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
