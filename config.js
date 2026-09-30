@@ -25,5 +25,5 @@ module.exports = {
   // Mémoire (en Go)
   ramMin: 4,
   ramDefault: 8,
-  ramMax: 14
+  ramMax: 16
 };
